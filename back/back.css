@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+	{
+		background-color:#555;
+		font-size:13px;
+		color:#FFF;
+		padding:0px;
+		margin:0px;
+		font-family:myFirstFont;
+		cursor:default;
+	}
+@font-face{
+	font-family:myFirstFont;
+	src:url(../res/segoe.ttf);
+}
+header
+	{color:#333333;}
+a:link,a:visited
+{
+display:;
+font-weight:bold;
+color:#CCC;
+padding:4px;
+text-decoration:none;
+}
+a:hover,a:active
+{
+	background-color:#999;
+	color:rgba(255,255,255,1);
+}
+x a 
+	{
+		display:inline-block;
+		height:100%;
+		width:100%	
+	}
+a.dark:link,a.dark:visited
+{
+display: inline-table;
+font-weight:bold;
+color:#FFF;
+width:20px;
+padding:4px;
+text-decoration:none;
+}
+a.dark:hover,a.dark:active
+{
+	background-color:#999;
+	color:#FFF;
+}
+a.anchor:hover
+{
+	background-color:#DDD;
+	color:#999;
+}
+#rad
+	{
+		border-radius:100px;
+		border:#CCC thin solid;
+	}
+#greyShadow
+	{
+		background-color:#CCC;
+		-moz-box-shadow: 0px 1px 5px #888888; /* Firefox */
+		-webkit-box-shadow: 0px 1px 5px #888888; /* Safari and Chrome */
+		box-shadow: 0px 1px 5px #888888;
+	}
+input.new
+	{
+	vertical-align:central;
+	border: thin #AAA;
+	text-align:start;
+	color:#FFF;
+	background-color:#CCC;
+	width:180px;
+	padding:5px;
+	height:20px;}
+#padL15
+	{padding-left:15px;}
+#padL10L
+	{padding-left:10px;
+	font-size:15px}
+#padL10LF
+	{padding-left:10px;
+	font-size:20px}
+#borBot
+	{
+		padding-top:0px;
+		border-bottom:thin solid #CCC;
+	}
+#toppad
+	{padding-top:30px;
+	font-size:100px;
+	color:#1F7044;}
+
+#cubes1
+	{
+		background-color:#EEE;
+	}
+#cubes45
+	{
+		padding:20px;
+		background-color:#DDD;
+	}
+#bodshade
+	{
+		background-color:#EEE;
+		-moz-box-shadow:  0px 3px 10px #888888; /* Firefox */
+		-webkit-box-shadow: 0px 3px 10px #888888; /* Safari and Chrome */
+	}
+#bodshade1
+	{
+		background-color:#CCC;
+		-moz-box-shadow:  0px 3px 10px #888888; /* Firefox */
+		-webkit-box-shadow: 0px 3px 10px #888888; /* Safari and Chrome */
+	}
+#largeFont{
+	font-size:25px;
+	color:#AAA;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+	display:table-cell;
+}
+#largeFont1{
+	font-size:25px;
+	color:#AAA;
+	background-color:#DDD;
+}
+#music
+	{
+		padding-left:5px;
+		padding-right:5px;
+		color:#999;
+		background-color:#DDD;
+		padding-top:7px;
+		padding-bottom:7px;
+		height:5px;
+		display: inline;
+	}
